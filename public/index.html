@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width initial-scale=1.0'>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>Boilermaker</title>
-    <link rel="stylesheet" href="/style.css" />
-    <script defer src="/bundle.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script defer src="./Connect4.js"></script>
   </head>
   <body>
     <div id="app"></div>
+    <div id="header">
+      <div id="container">
+        <div>
+          <h1 id="title">CONNECT 4</h1>
+        </div>
+        <div id="game-info">
+          <div id="player-one-container">
+            <div id="player-name">
+              <h2>Player One</h2>
+            </div>
+            <div id="player-one-color"></div>
+          </div>
+          <div id="player-two-container">
+            <div id="player-name">
+              <h2>Player Two</h2>
+            </div>
+            <div id="player-two-color"></div>
+          </div>
+          <div><h3 id="win-div">CONNECT 4!!!!!!!</h3></div>
+          <div><button id="reset" type="button">RESET</button></div>
+        </div>
+      </div>
+      <div id="gamewindow">
+        <div id="grid"></div>
+      </div>
+    </div>
   </body>
 </html>
-

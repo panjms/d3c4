@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  align-items: center;
 }
 
 a {
@@ -18,4 +19,44 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+#game-info {
+  display: flex;
+  align-items: center;
+}
+
+#player-one-container,
+#player-two-container {
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
+}
+
+#player-one-color {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  background-color: #f56c4e;
+}
+
+#player-two-color {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  background-color: #ffe600;
+}
+
+svg {
+  display: block;
+  position: absolute;
+}
+
+.empty-svg {
+  background-color: #1874cd;
+}
+
+#reset {
+  margin-left: 100px;
+  background-color: white;
 }
