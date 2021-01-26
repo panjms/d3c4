@@ -348,7 +348,6 @@ row
     if (d.val === 0 && winningPlayer === 0) {
       onClick(d)
       if (d.val == 1) {
-        console.log(d3)
         d3
           .select(this)
           .attr('cx', d.x)
